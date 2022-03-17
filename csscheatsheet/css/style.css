@@ -1,0 +1,137 @@
+*{
+    /*margin: 0%;
+    padding: 0%;*/
+    /*border: 1px red solid;*/
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+}
+
+a:active{
+    color: green;
+}
+
+.button{
+    background-color: black;
+    color:blanchedalmond;
+    padding: 8px 15px;
+    border-style: none;
+    border-radius: 10px;
+}
+
+.button:hover{
+    background-color: grey;
+    color:black;
+}
+
+.clrfix{
+    clear: both;
+}
+
+body{
+    color:black;
+    font: normal 12px 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 300px;
+}
+
+.box-1{
+    background-color: #333;
+    color: blanchedalmond;
+    padding: 20px;
+}
+
+.box-1 h1{
+    font-style: italic;
+    text-decoration:underline; 
+}
+
+.box-2{
+    padding: 20px;
+    margin: 20px 0px;
+}
+
+.categories{
+border: 1px green solid;
+border-radius: 20px;
+padding: 20px;
+}
+
+.categories ul{
+    list-style:;
+}
+
+.categories li{
+    padding: 10px 0 5px 0;
+    border-bottom: 1px gray solid;
+}
+
+.my-form{
+    padding: 20px;
+}
+
+.my-form .form-group{
+    padding-bottom: 10px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
+
+.block {
+    float: left;
+    width: 33.3%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#main-block{
+    float: left;
+    width: 70%;
+}
+#sidebar{
+    float: right;
+    width: 30%;
+    background-color: rgb(65, 65, 65);
+    color: white;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.p-box{
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    margin-top: 30px;
+    position: relative;
+    background-image: url(../images/bgimg.jpg);
+    background-repeat: no-repeat;
+    background-position: 100px 200px;
+    background-position: center;
+}
+
+.p-box h1{
+    position: absolute;
+    top: 5px;
+}
+
+.fix-me{
+    position: fixed;
+    top: 50%;
+}
